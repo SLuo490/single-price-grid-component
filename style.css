@@ -20,6 +20,8 @@ body {
   align-items: center;
 
   background-color: var(--n-light-gray);
+  font-family: karla, sans-serif;
+  font-size: 16px;
 }
 
 /* Use grid for the sections */
@@ -27,19 +29,56 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
-  width: 635px;
-  height: 475px;
+  border-radius: 8px;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-400 {
+  font-weight: 400;
 }
 
 .title {
   grid-column: 1/3;
   background: white;
+
+  height: 216px;
+  width: 635px;
+}
+
+.title h1 {
+  margin: 40px 0 24px 40px;
+  color: var(--p-cyan);
+  font-size: 24px;
+  letter-spacing: -0.3px;
+}
+
+.title h2 {
+  margin: 0 0 11px 40px;
+  color: var(--p-bright-yellow);
+  font-size: 18px;
+  letter-spacing: -0.225px;
+}
+
+.title p {
+  margin: 0 40px 40px 40px;
+  color: var(--n-grayish-blue);
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
 }
 
 .cost {
   background: var(--p-cyan);
+
+  height: 259px;
+  width: 318px;
 }
 
 .about {
   background: var(--p-light-cyan);
+  height: 259px;
+  width: 318px;
 }
