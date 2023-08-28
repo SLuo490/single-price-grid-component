@@ -10,3 +10,13 @@
   --n-light-gray: hsl(204, 43%, 93%);
   --n-grayish-blue: hsl(218, 22%, 67%);
 }
+
+/* Center the content into the middle of body */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--n-light-gray);
+}
