@@ -20,3 +20,16 @@ body {
 
   background-color: var(--n-light-gray);
 }
+
+/* Use grid for the sections */
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  width: 635px;
+  height: 475px;
+}
+
+.title {
+  grid-column: 1/3;
+}
