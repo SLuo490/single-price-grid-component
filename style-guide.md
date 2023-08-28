@@ -12,6 +12,7 @@ The designs were created to the following widths:
 ### Primary
 
 - Cyan: hsl(179, 62%, 43%)
+- Light Cyan: hsl(178, 48%, 52%)
 - Bright Yellow: hsl(71, 73%, 54%)
 
 ### Neutral
