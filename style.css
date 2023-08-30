@@ -156,3 +156,74 @@ main {
 .about p span {
   display: block;
 }
+
+@media screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    height: 259px;
+    width: 311px;
+  }
+
+  .title h1 {
+    margin: 28px 24px 24px 24px;
+  }
+
+  .title h2 {
+    margin: 0 24px 16px 24px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.187px;
+  }
+
+  .title p {
+    margin: 0 24px 32px 24px;
+    font-size: 14px;
+    letter-spacing: -0.175px;
+  }
+
+  .cost {
+    border-radius: 0 0 0 0;
+
+    height: 228px;
+    width: 311px;
+  }
+
+  .cost h1 {
+    margin: 24px 0 18px 24px;
+  }
+
+  .cost h2 {
+    margin: 0px 11px 4px 24px;
+    font-size: 32px;
+    letter-spacing: -0.4px;
+  }
+
+  .cost h3 {
+    margin: 0 24px 26px 24px;
+  }
+
+  .cost button {
+    margin: 0 24px 24px 24px;
+    width: 263px;
+    border-radius: 5px;
+  }
+
+  .about {
+    border-radius: 0 0 8px 8px;
+
+    height: 227px;
+    width: 311px;
+  }
+
+  .about h1 {
+    margin: 24px 0 18px 24px;
+  }
+
+  .about p {
+    margin: 0 24px 24px 24px;
+  }
+}
